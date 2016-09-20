@@ -19,6 +19,8 @@ Version 1.13.6+dev:
      * New mutable keys: suppress_end_turn_confirmation, share_vision
      * New read-only keys: share_maps, share_view
      * Existing keys made mutable: shroud, fog, flag, flag_icon
+   * wesnoth.scroll_to_tile now accepts a third boolean argument - if true, the scroll
+     is skipped when the tile is already visible onscreen.
  * WML Engine:
    * Removed LOW_MEM option when building.
    * Add color= attribute to [floating_text]
